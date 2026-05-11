@@ -1,0 +1,13 @@
+{
+  "ImageInfo": {
+    "Name": "Lenna_512_512_RGB.raw",
+    "Width": "512",
+    "Height": "512",
+    "Channels":  "3"
+  },
+
+  "FoldersInfo": {
+    "InputFiles": "InputFiles",
+    "OutputFiles": "OutputFiles"
+  }
+}

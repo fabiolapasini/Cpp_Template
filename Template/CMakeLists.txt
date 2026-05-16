@@ -2,16 +2,16 @@
 find_package(OpenCV REQUIRED)
 find_package(nlohmann_json CONFIG REQUIRED)
 
-add_executable(Template 
-    "main.cpp" 
-    "src/template.cpp" 
-    "src/utils.cpp" 
+add_executable(Template
+    "main.cpp"
+    "src/template.cpp"
+    "src/utils.cpp"
     "include/utils.h"
     "include/template.h"
 )
 
-target_link_libraries(Template PRIVATE 
-    ${OpenCV_LIBS} 
+target_link_libraries(Template PRIVATE
+    ${OpenCV_LIBS}
     nlohmann_json::nlohmann_json
 )
 

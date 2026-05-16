@@ -10,7 +10,7 @@ namespace utils {
 
 	struct ImageInfo {
 		std::string Name;
-		uint16_t Width; 
+		uint16_t Width;
 		uint16_t Height;
 		uint16_t Channels;
 	};

@@ -8,7 +8,7 @@ namespace utils {
 
 // conversion functions for MapperProducerInfo
 void to_json(json &j, const utils::ImageInfo&mpi) {
-  j = json{{"Name", mpi.Name}, 
+  j = json{{"Name", mpi.Name},
       {"Width", mpi.Width},
       {"Height", mpi.Height},
       {"Channels", mpi.Channels}

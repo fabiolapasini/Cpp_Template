@@ -14,4 +14,3 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 add_subdirectory(Template)
 add_subdirectory(tests)
-

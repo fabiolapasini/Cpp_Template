@@ -1,23 +1,23 @@
 {
-  "dependencies": [
-    {
-      "name": "opencv4",
-      "default-features": false,
-      "features": [
-        "jpeg",
-        "png",
-        "tiff"
-      ],
-      "version>=": "4.5.1"
-    },
-    "nlohmann-json"
-  ],
-  "features": {
-    "tests": {
-      "description": "Builds tests",
-      "dependencies": [
-        "gtest"
-      ]
+    "dependencies": [
+        {
+            "name": "opencv4",
+            "default-features": false,
+            "features": [
+                "jpeg",
+                "png",
+                "tiff"
+            ],
+            "version>=": "4.5.1"
+        },
+        "nlohmann-json"
+    ],
+    "features": {
+        "tests": {
+            "description": "Builds tests",
+            "dependencies": [
+                "gtest"
+            ]
+        }
     }
-  }
 }
